@@ -1,4 +1,4 @@
-#include "GameEngine.h"
+/*#include "GameEngine.h"
 #include "Player.h"
 #include "PlayerStrategies.h"
 #include <iostream>
@@ -56,7 +56,7 @@ void promptSetStrategy(Player* player)
 			- a Country to fortify
 		2. Cheater strategy will cheat by:
 			- doubling the number of armies on its Countries that have neighbours that belong to other players
-*/
+
 int main() {
 
     GameEngine ge;
@@ -90,4 +90,4 @@ int main() {
     delete phaseLog, phaseLogObserver, humanStrategy, aggressiveStrategy, benevolentStrategy, randomStrategy, cheaterStrategy;
     system("pause");
     return 0;
-}
+}*/
